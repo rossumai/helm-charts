@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  chart-updater:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-05T22:29:01.543651237+01:00"
+    description: Auto-updater of charts for Flux and HelmOperator
+    digest: ee015593f4251267ca8eb5239a02efecda394a4d82a5e90d3333fc8cca8b76cc
+    name: chart-updater
+    urls:
+    - https://rossumai.github.io/helm-charts/chart-updater-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-05T22:29:01.543086902+01:00"
