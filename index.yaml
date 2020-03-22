@@ -10,4 +10,22 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/chart-updater-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-05T22:29:01.543086902+01:00"
+  pgbouncer:
+  - created: "2020-03-22T12:58:07.525118313+01:00"
+    description: PgBouncer chart
+    digest: 8975fcbb1b814d91e7419b15ddd824226c09f591825e13dd4fa47e600c7e1931
+    name: pgbouncer
+    urls:
+    - https://rossumai.github.io/helm-charts/pgbouncer-1.2.1.tgz
+    version: 1.2.1
+  statsd-exporter:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-03-22T12:58:07.525366713+01:00"
+    description: StatsD exporter for Prometheus
+    digest: a0755011c6af2ab21c0039b0769dea2b6b63a966c2857315b75732091f894a5d
+    name: statsd-exporter
+    urls:
+    - https://rossumai.github.io/helm-charts/statsd-exporter-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-22T12:58:07.524633334+01:00"
