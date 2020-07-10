@@ -19,6 +19,24 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/chart-updater-0.1.0.tgz
     version: 0.1.0
+  opendistro-es:
+  - apiVersion: v1
+    appVersion: 1.9.0
+    created: "2020-07-10T18:02:13.055617561+02:00"
+    description: Open Distro for Elasticsearch
+    digest: ad0696e3153bea3db5a7cb1f781d6a218b1adf42f004772e44571ee6becf884a
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: derek.heldt-werle@viasat.com
+      name: Derek Heldt-Werle
+    - email: kalvin.chau@viasat.com
+      name: Kalvin Chau
+    name: opendistro-es
+    sources:
+    - https://pages.git.viasat.com/ATG/charts
+    urls:
+    - https://rossumai.github.io/helm-charts/opendistro-es-1.9.0.tgz
+    version: 1.9.0
   pgbouncer:
   - created: "2020-03-22T12:58:07.525118313+01:00"
     description: PgBouncer chart
@@ -37,4 +55,4 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/statsd-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-22T16:58:00.825636518+01:00"
+generated: "2020-07-10T18:02:13.053333013+02:00"
