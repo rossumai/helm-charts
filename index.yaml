@@ -38,6 +38,14 @@ entries:
     - https://rossumai.github.io/helm-charts/opendistro-es-1.9.0.tgz
     version: 1.9.0
   pgbouncer:
+  - apiVersion: v1
+    created: "2020-09-15T12:55:02.164200511+02:00"
+    description: PgBouncer chart
+    digest: 711938fda0d1613711aa675a0237277d8f0221f1b6254d344a7046b82a57fb6d
+    name: pgbouncer
+    urls:
+    - https://rossumai.github.io/helm-charts/pgbouncer-1.3.0.tgz
+    version: 1.3.0
   - created: "2020-03-22T12:58:07.525118313+01:00"
     description: PgBouncer chart
     digest: 8975fcbb1b814d91e7419b15ddd824226c09f591825e13dd4fa47e600c7e1931
@@ -55,4 +63,4 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/statsd-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-10T18:02:13.053333013+02:00"
+generated: "2020-09-15T12:55:02.160653059+02:00"
