@@ -19,6 +19,24 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/chart-updater-0.1.0.tgz
     version: 0.1.0
+  fluentd:
+  - apiVersion: v1
+    appVersion: v2.4.0
+    created: "2021-01-13T11:43:12.315255483+01:00"
+    deprecated: true
+    description: DEPRECATED A Fluentd Elasticsearch Helm chart for Kubernetes.
+    digest: 086fcd58aeda56a9ca44c2dff697239f1dbe06bdc94b1244a3c2a762f6bfee51
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    name: fluentd
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    - https://quay.io/repository/coreos/fluentd-kubernetes
+    - https://github.com/coreos/fluentd-kubernetes-daemonset
+    - https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
+    urls:
+    - https://rossumai.github.io/helm-charts/fluentd-2.5.3.tgz
+    version: 2.5.3
   opendistro-es:
   - apiVersion: v1
     appVersion: 1.9.0
@@ -72,4 +90,4 @@ entries:
     urls:
     - https://rossumai.github.io/helm-charts/statsd-exporter-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-18T13:07:34.645678+01:00"
+generated: "2021-01-13T11:43:12.312564065+01:00"
